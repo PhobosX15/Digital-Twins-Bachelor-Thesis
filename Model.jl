@@ -159,7 +159,7 @@ function scenarios()
     Gpl_all = []
     Insulin_all=[]
     for i in 1:length(data[!,1])
-        u0=[data[i,1],0.0,data[i,6],0.0]
+        u0=[0.0,data[i,1],data[i,6],0.0]
         global Gpl_saved= [data[i,1]]
         global Insulin_saved=[data[i,6]]
         p[1]= est_p_values[i,1];
