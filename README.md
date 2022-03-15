@@ -2,4 +2,4 @@
 E-DES model Julia Implementation
 
 Contents:
-Model_notebook.ipynb- Excecuted Jupyter Notebook showing current progress.
+Model.jl - The model drives glucose and insulin to zero before simulating correctly. Source of error to be found.
